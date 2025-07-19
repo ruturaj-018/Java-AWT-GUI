@@ -38,6 +38,6 @@ public class KeyEventexample1 extends Frame implements KeyListener {
     }
 
     public static void main(String[] args) {
-        new art();
+        new KeyEventexample1();
     }
 }
