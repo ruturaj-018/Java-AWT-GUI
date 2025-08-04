@@ -4,11 +4,11 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class artist extends JFrame implements ActionListener, MouseListener {
+public class LoginFrameSwing extends JFrame implements ActionListener, MouseListener {
     private JTextField t1;
     private JPasswordField p1;
     private JLabel Label;
-    artist() {
+    LoginFrameSwing() {
         setTitle("Registration");
         setSize(500, 500);
         setLayout(null);
@@ -87,7 +87,7 @@ public class artist extends JFrame implements ActionListener, MouseListener {
         getContentPane().setBackground(Color.PINK);
     }
     public static void main(String[] args) {
-        new artist();
+        new LoginFrameSwing();
     }
 }
 
