@@ -1,9 +1,12 @@
 package Simple_Examples;
 import java.awt.*;
 import java.awt.event.*;
+
 public class ComponentEventExample extends Frame implements ComponentListener {
 
     public ComponentEventExample() {
+        addComponentListener(this);
+        setSize(200, 200);
         setLayout(null);
         setVisible(true);
     }
@@ -28,3 +31,4 @@ public class ComponentEventExample extends Frame implements ComponentListener {
         new ComponentEventExample();
     }
 }
+
