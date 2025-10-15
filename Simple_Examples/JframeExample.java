@@ -1,6 +1,6 @@
 package Simple_Examples;
 import javax.swing.*;
-public class Examp extends JFrame {
+public class JframeExample extends JFrame {
     Examp() {
         setTitle("Jpassward_Field");
         setSize(500, 500);
