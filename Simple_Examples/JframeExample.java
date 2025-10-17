@@ -28,7 +28,6 @@ public class JframeExample extends JFrame {
         p1.setBounds(190,200,90,30);
         p1.setEchoChar('#');
         add(p1);
-
     }
     public static void main(String[] args) {
         new JframeExample();
