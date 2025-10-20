@@ -31,6 +31,7 @@ public class LoginJFrame extends JFrame {
 
         }
         public static void main(String[] args) {
-            new LoginJFrame();
+        
+        new LoginJFrame();
         }
     }
