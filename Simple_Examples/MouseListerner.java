@@ -38,6 +38,7 @@ public class MouseListerner extends Frame implements MouseListener {
     }
 
     public static void main(String[] args) {
-        new Example();
+
+        new MouseListerner();
     }
 }
