@@ -2,10 +2,11 @@ package Simple_Examples;
 
 import java.awt.*;
 import java.awt.event.MouseEvent;
+import java.awt.event.MouseMotionAdapter;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class MouseMotionExample {
+public class MouseMotionExample extends MouseMotionAdapter {
     {
         Frame f1 = new Frame("Experiment No : 05");
         f1.addMouseMotionListener(this);
