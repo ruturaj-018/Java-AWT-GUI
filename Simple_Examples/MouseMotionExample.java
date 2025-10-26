@@ -7,7 +7,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
 public class MouseMotionExample extends MouseMotionAdapter {
-    {
+    MouseMotionExample() {
         Frame f1 = new Frame("Experiment No : 05");
         f1.addMouseMotionListener(this);
 
