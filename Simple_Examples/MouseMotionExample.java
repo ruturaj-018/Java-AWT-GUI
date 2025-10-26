@@ -30,4 +30,6 @@ public class MouseMotionExample extends MouseMotionAdapter {
     };
 
     public static void main(String[] args) {
+        new MouseMotionExample();
+    }
 }
