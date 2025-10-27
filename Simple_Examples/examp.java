@@ -1,4 +1,4 @@
 package Simple_Examples;
 
-public class examp {
+public class examp extend MouseListener{
 }
