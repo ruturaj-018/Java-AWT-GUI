@@ -5,7 +5,7 @@ import java.awt.event.FocusEvent;
 
 public class FocusAdapterExample {
     public static void main(String[] args) {
-        Frame frame = new Frame();
+        Frame frame = new Frame("Focus Adapter Example");
         TextField textField = new TextField();
         textField.setBounds(50, 50, 200, 30);
         textField.addFocusListener(new FocusAdapter() {
