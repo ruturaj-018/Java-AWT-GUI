@@ -1,6 +1,6 @@
 package Simple_Examples;
 
-public class examp extend MouseListener{
+public class examp {
     textField = new TextField();
         textField.setBounds(50, 50, 100, 30);
         textField.addFocusListener(this);
