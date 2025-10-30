@@ -9,4 +9,4 @@ public class examp {
     setLayout(null);
     setVisible(true);
 }
-}
+
