@@ -1,4 +1,7 @@
 package Simple_Examples;
 
-public class FocusEventExample {
+import java.awt.*;
+import java.awt.event.FocusListener;
+
+public class FocusEventExample extends Frame implements FocusListener {
 }
