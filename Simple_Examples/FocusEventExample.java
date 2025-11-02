@@ -1,6 +1,7 @@
 package Simple_Examples;
 
 import java.awt.*;
+import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 
 public class FocusEventExample extends Frame implements FocusListener {
@@ -15,4 +16,17 @@ public class FocusEventExample extends Frame implements FocusListener {
         setLayout(null);
         setVisible(true);
     }
+
+    public void focusGained(FocusEvent e) {
+        System.out.println("Focus gained");
+    }
+
+    public void focusLost(FocusEvent e) {
+        System.out.println("Focus lost");
+    }
+
+    public static void main(String[] args) {
+        new FocusEventExample();
+    }
 }
+
