@@ -4,6 +4,8 @@ import java.awt.*;
 import java.awt.event.FocusListener;
 
 public class FocusEventExample extends Frame implements FocusListener {
+    TextField textField;
+
     public FocusEventExample() {
         textField = new TextField();
         textField.setBounds(50, 50, 100, 30);
