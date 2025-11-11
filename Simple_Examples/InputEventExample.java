@@ -28,4 +28,23 @@ public class InputEventExample {
         System.out.println("Mouse clicked at: " + e.getX() + ", " + e.getY());
     }
 
+    public void mousePressed(MouseEvent e) {
+        System.out.println("Mouse pressed");
+    }
+
+    public void mouseReleased(MouseEvent e) {
+        System.out.println("Mouse released");
+    }
+
+    public void mouseEntered(MouseEvent e) {
+        System.out.println("Mouse entered");
+    }
+
+    public void mouseExited(MouseEvent e) {
+        System.out.println("Mouse exited");
+    }
+
+    public static void main(String[] args) {
+        new InputEventExample();
+    }
 }
