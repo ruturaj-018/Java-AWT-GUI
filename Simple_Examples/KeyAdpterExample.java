@@ -1,10 +1,10 @@
 package Simple_Examples;
 
-import java.awt.*;
+import java.awt.Frame;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-public class KeyAdpterExample {
+public class KeyAdapterExample {
     public static void main(String[] args) {
         Frame frame = new Frame("Key Adapter Example");
         frame.setSize(300, 200);
@@ -17,3 +17,4 @@ public class KeyAdpterExample {
         frame.setVisible(true);
     }
 }
+
