@@ -7,5 +7,4 @@ public class KeyEventExample extends {
         setLayout(null);
         setVisible(true);
     }
-    }
 }
