@@ -1,8 +1,11 @@
 package Simple_Examples;
 
 public class KeyEventExample {
-    public static void main(String[] args) {
+    public KeyEventExample() {
+        addKeyListener(this);
+        setSize(200, 200);
         setLayout(null);
         setVisible(true);
+    }
     }
 }
