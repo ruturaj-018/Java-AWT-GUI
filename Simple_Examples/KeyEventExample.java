@@ -1,6 +1,6 @@
 package Simple_Examples;
 
-public class KeyEventExample extends {
+public class KeyEventExample  {
     public KeyEventExample() {
         addKeyListener(this);
         setSize(200, 200);
