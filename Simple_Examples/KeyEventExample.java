@@ -5,6 +5,6 @@ public class KeyEventExample  {
         addKeyListener(this);
         setSize(200, 200);
         setLayout(null);
-       
+      extend
     }
 }
