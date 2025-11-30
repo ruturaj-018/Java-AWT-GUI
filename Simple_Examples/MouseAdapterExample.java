@@ -1,10 +1,5 @@
 package Simple_Examples;
 
-import java.awt.*;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-
-public class MouseAdapterExample
 import java.awt.Frame;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -20,7 +15,5 @@ public class MouseAdapterExample {
             }
         });
         frame.setVisible(true);
-    }
-}
     }
 }
