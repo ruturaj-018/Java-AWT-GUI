@@ -25,5 +25,6 @@ public class MouseEventExample {
     public void mouseEntered(MouseEvent e) {
         System.out.println("Mouse entered");
     }
-
+    public static void main(String[] args) {
+        new MouseEventExample();
 }
