@@ -1,8 +1,11 @@
 package Simple_Examples;
 
+import java.awt.*;
 import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 
-public class MouseEventExample {
+public class MouseEventExample extends Frame implements MouseListener {
+
     public MouseEventExample() {
         addMouseListener(this);
         setSize(200, 200);
