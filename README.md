@@ -1,1 +1,1 @@
-### JAVA AWT Examples
+### JAVA AWT GUI Examples
