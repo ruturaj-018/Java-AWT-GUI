@@ -9,5 +9,13 @@ public class MouseWheelEventExample extends Frame implements MouseWheelListener 
         setLayout(null);
         setVisible(true);
     }
+
+    public void mouseWheelMoved(MouseWheelEvent e) {
+        System.out.println("Mouse wheel moved: " + e.getWheelRotation());
+    }
+
+    public static void main(String[] args) {
+        new MouseWheelEventExample();
+    }
     
 }
