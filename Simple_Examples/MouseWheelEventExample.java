@@ -17,5 +17,5 @@ public class MouseWheelEventExample extends Frame implements MouseWheelListener 
     public static void main(String[] args) {
         new MouseWheelEventExample();
     }
-    
+
 }
