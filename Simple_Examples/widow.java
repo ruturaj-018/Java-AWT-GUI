@@ -13,10 +13,6 @@ class Solution {
         }
 
         if (negCount % 2 == 0) {
-            return sum;
-        } else {
-            return sum - 2L * minAbs;
-        }
-    }
+ 
 }
 
