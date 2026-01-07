@@ -11,7 +11,6 @@ class Solution {
                 minAbs = Math.min(minAbs, Math.abs(val));
             }
         }
-
         if (negCount % 2 == 0) {
  
 }
