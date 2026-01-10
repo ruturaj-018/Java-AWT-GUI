@@ -5,13 +5,7 @@ class Solution {
         int negCount = 0;
 
         for (int[] row : matrix) {
-            for (int val : row) {
-                if (val < 0) negCount++;
-                sum += Math.abs(val);
-                minAbs = Math.min(minAbs, Math.abs(val));
-            }
-        }
-        if (negCount % 2 == 0) {
+            f
  
 }
 
