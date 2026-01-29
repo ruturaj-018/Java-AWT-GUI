@@ -1,3 +1,2 @@
-class Solution {
-
+class Soluti
 
