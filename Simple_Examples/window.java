@@ -18,3 +18,5 @@ public class TextCopyEvent {
         frame.add(textField1);
         frame.add(new Label("Copied text will appear here:"));
         frame.add(textField2);
+
+        // Add text listener to the first text field
