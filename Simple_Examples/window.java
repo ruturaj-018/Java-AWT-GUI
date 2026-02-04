@@ -24,5 +24,4 @@ public class TextCopyEvent {
             @Override
             public void textValueChanged(TextEvent e) {
                 textField2.setText(textField1.getText());
-            }
-        });
+            
