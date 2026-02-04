@@ -23,5 +23,4 @@ public class TextCopyEvent {
         textField1.addTextListener(new TextListener() {
             @Override
             public void textValueChanged(TextEvent e) {
-                textField2.setText(textField1.getText());
-            
+                textField2.setText(textField1.getText
