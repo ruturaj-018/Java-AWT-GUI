@@ -20,6 +20,4 @@ public class TextCopyEvent {
         frame.add(textField2);
 
         // Add text listener to the first text field
-        textField1.addTextListener(new TextListener() {
-            @Override
-            public void t
+        textField1.addTextListener(new TextListener
