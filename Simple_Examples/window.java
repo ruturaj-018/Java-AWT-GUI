@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 
-public class TextCopyEvent {
+public class TextCopieEvent {
     public static void main(String[] args) {
         // Create the main frame
         Frame frame = new Frame("TextEvent Example");
@@ -20,4 +20,21 @@ public class TextCopyEvent {
         frame.add(textField2);
 
         // Add text listener to the first text field
-        textField1.addTextListener(new TextListener
+        textField1.addTextListener(new TextListener() {
+            @Override
+            public void textValueChanged(TextEvent e) {
+                textField2.setText(textField1.getText());
+            }
+        });
+
+        // Display the frame
+        frame.setVisible(true);
+
+        // Add a window listener to close the frame
+        frame.addWindowListener(new WindowAdapter() {
+            public void windowClosing(WindowEvent we) {
+                System.exit(0);
+            }
+        });
+    }
+}
