@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class TextEventExample{
-    //class Error
+    //class Error --TextEventExample
     public static void main(String[] args) {
         // Create the main frame
         Frame frame = new Frame("TextEvent Example");
