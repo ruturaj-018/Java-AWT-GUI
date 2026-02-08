@@ -26,10 +26,8 @@ public class TextEventExample{
                 textField2.setText(textField1.getText());
             }
         });
-
         // Display the frame
         frame.setVisible(true);
-
         // Add a window listener to close the frame
         frame.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent we) {
