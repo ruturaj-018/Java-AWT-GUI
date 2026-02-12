@@ -4,6 +4,6 @@ public class example {
     public static void main(String[] args) {
 
 
-        //--
+        //--class error for the
     }
 }
