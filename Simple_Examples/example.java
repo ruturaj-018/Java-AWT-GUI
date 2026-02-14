@@ -1,4 +1,2 @@
 package Simple_Examples;
 
-
-}
