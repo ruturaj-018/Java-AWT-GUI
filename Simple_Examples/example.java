@@ -11,3 +11,7 @@ public class TextEventExample extends Frame implements TextListener {
         setSize(200, 200);
         setLayout(null);
         setVisible(true);
+    }
+    public void textValueChanged(TextEvent e) {
+        System.out.println("Text changed: " + textField.getText());
+    }
