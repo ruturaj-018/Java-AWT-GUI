@@ -29,4 +29,5 @@ public class SwingComponent {
 
         panel.add(new JSlider());
         panel.add(new JProgressBar());
+    }
 }
