@@ -4,7 +4,7 @@ import java.awt.event.*;
 
 public class TextEvent extends Frame implements TextListener {
     TextField textField;
-    public TextEventExample() {
+    public TextEvent() {
         textField = new TextField();
         textField.setBounds(50, 50, 100, 30);
         textField.addTextListener(this);
