@@ -18,6 +18,6 @@ public class TextEv extends Frame implements TextListener {
     }
 
     public static void main(String[] args) {
-        new TextExaple();
+        new Textxaple();
     }
 }
