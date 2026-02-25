@@ -2,7 +2,7 @@ package Simple_Examples;
 import java.awt.*;
 import java.awt.event.*;
 
-public class TextEv extends Frame implements TextListener {
+public class  extends Frame implements TextListener {
     TextField textField;
     public example() {
         textField = new TextField();
