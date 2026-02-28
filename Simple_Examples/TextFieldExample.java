@@ -18,6 +18,6 @@ public class TextFieldExample extends Frame implements TextListener {
     }
 
     public static void main(String[] args) {
-        new e();
+        new TextFieldExample();
     }
 }
