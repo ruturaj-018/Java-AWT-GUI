@@ -13,5 +13,6 @@ public class example {
                 System.out.println("Window is closed. Goodbye!!!");
                 System.exit(0);
             }
+        };
     }
 }
