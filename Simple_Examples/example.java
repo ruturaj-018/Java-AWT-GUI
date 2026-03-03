@@ -11,6 +11,7 @@ public class example {
             @Override
             public void windowClosing(WindowEvent e) {
                 System.out.println("Window is closed. Goodbye!!!");
+                System.exit(0);
             }
     }
 }
