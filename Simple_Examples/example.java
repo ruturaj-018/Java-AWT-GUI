@@ -1,10 +1,8 @@
 package Simple_Examples;
 
 import java.awt.*;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-
-public class example {
+import java.awt.event.*;
+public class widow {
     public static void main(String[] args) {
         Frame f1 = new Frame("Experiment No : 05");
         WindowAdapter w1 = new WindowAdapter() {
@@ -13,10 +11,13 @@ public class example {
                 System.out.println("Window is closed. Goodbye!!!");
                 System.exit(0);
             }
-             f1.add(l1);
+        };
+        f1.addWindowListener(w1);
+        Label l1 = new Label("Welcome to SITCOE");
+        l1.setBounds(200,150,120,40);
+        f1.add(l1);
         f1.setSize(300, 200);
         f1.setLayout(null);
         f1.setVisible(true);
-        };
     }
 }
