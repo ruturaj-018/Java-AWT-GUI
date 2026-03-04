@@ -13,6 +13,10 @@ public class example {
                 System.out.println("Window is closed. Goodbye!!!");
                 System.exit(0);
             }
+             f1.add(l1);
+        f1.setSize(300, 200);
+        f1.setLayout(null);
+        f1.setVisible(true);
         };
     }
 }
