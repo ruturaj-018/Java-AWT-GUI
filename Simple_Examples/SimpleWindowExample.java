@@ -2,7 +2,7 @@ package Simple_Examples;
 
 import java.awt.*;
 import java.awt.event.*;
-public class exa{
+public class {
     public static void main(String[] args) {
         Frame f1 = new Frame("Experiment No : 05");
         WindowAdapter w1 = new WindowAdapter() {
