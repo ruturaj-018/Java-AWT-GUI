@@ -13,7 +13,7 @@ public class SimpleWindowExample {
             }
         };
         f1.addWindowListener(w1);
-        Label l1 = new Label("Welcome to S");
+        Label l1 = new Label("Welcome to SimpleWindow ");
         l1.setBounds(200,150,120,40);
         f1.add(l1);
         f1.setSize(300, 200);
