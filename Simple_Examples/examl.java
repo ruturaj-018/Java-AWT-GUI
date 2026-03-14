@@ -9,10 +9,12 @@ public class examl  {
         Frame frame = new Frame("Window Adapter Example");
         frame.setSize(300, 200);
         frame.addWindowListener(new WindowAdapter() {
+
             @Override
             public void windowClosing(WindowEvent e) {
                 frame.dispose();
             }
+            
         });
 
     }
