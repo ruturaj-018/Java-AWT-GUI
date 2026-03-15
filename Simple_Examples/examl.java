@@ -14,8 +14,8 @@ public class examl  {
             public void windowClosing(WindowEvent e) {
                 frame.dispose();
             }
-            frame.setVisible(true);
-        });
 
+        });
+        frame.setVisible(true);
     }
 }
