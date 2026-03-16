@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class examl  {
+public class ex  {
     public static void main(String[] args) {
         Frame frame = new Frame("Window Adapter Example");
         frame.setSize(300, 200);
