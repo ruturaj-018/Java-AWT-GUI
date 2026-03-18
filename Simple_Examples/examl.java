@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class  windo {
+public class  windows {
     public static void main(String[] args) {
         Frame frame = new Frame("Window Adapter Example");
         frame.setSize(300, 200);
