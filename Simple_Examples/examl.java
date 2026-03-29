@@ -6,7 +6,7 @@ import java.awt.event.WindowEvent;
 
 public class  windowadapater {
     public static void main(String[] args) {
-        Frame frame = new Frame("Window Adapter Example");
+        Frame frame = new Frame("Window Adapter");
         frame.setSize(300, 200);
         frame.addWindowListener(new WindowAdapter() {
 
